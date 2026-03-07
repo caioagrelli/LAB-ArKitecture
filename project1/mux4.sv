@@ -7,7 +7,7 @@ module mux(
         assign f = sel ? b : a; // se sel for 1, f recebe b, senao recebe a
 endmodule: mux
 
-
+ 
 // Mux de 4 entradas usando 3 mux's de 2 entradas
 module mux4(
     input logic [31:0] a, b, c, d,  // 4 entradas de 32 bits

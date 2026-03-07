@@ -44,7 +44,7 @@ module tb_mux4;
             #10;
             check(); // verificar se a sai­da corresponde a unica entrada selecionada
         end
-
+ 
         // teste 2: todas as entradas ativas
         count[0] = 32'hAAAAAAAA;
         count[1] = 32'hBBBBBBBB;
