@@ -26,6 +26,11 @@ project1/
 └── tb_mux4.sv    # Testbench para simulação e validação
 ```
 
+| Arquivo | Descrição |
+|--------|-----------|
+| [`mux4.sv`](project1/mux4.sv) | Implementação do MUX 4:1 de 32 bits |
+| [`tb_mux4.sv`](project1/tb_mux4.sv) | Testbench para simulação e validação |
+
 ---
 
 ## ⚙️ Descrição do Circuito
@@ -34,19 +39,19 @@ O módulo implementa um **multiplexador 4:1**, responsável por selecionar uma e
 
 ### 🔹 Entradas
 
-| Sinal | Largura | Descrição              |
-|-------|---------|------------------------|
-| `a`   | 32 bits | Entrada de dados 0     |
-| `b`   | 32 bits | Entrada de dados 1     |
-| `c`   | 32 bits | Entrada de dados 2     |
-| `d`   | 32 bits | Entrada de dados 3     |
-| `sel` | 2 bits  | Sinal de seleção       |
+| Sinal | Largura | Descrição          |
+|-------|---------|--------------------|
+| `a`   | 32 bits | Entrada de dados 0 |
+| `b`   | 32 bits | Entrada de dados 1 |
+| `c`   | 32 bits | Entrada de dados 2 |
+| `d`   | 32 bits | Entrada de dados 3 |
+| `sel` | 2 bits  | Sinal de seleção   |
 
 ### 🔸 Saída
 
-| Sinal | Largura | Descrição              |
-|-------|---------|------------------------|
-| `out` | 32 bits | Saída selecionada      |
+| Sinal | Largura | Descrição         |
+|-------|---------|-------------------|
+| `out` | 32 bits | Saída selecionada |
 
 ---
 
@@ -63,7 +68,7 @@ O módulo implementa um **multiplexador 4:1**, responsável por selecionar uma e
 
 ## 🧪 Testbench
 
-O arquivo `tb_mux4.sv` realiza a **simulação completa** do circuito, cobrindo todos os valores possíveis do seletor `sel` para verificar o comportamento correto do multiplexador em cada caso.
+O arquivo [`tb_mux4.sv`](project1/tb_mux4.sv) realiza a **simulação completa** do circuito, cobrindo todos os valores possíveis do seletor `sel` para verificar o comportamento correto do multiplexador em cada caso.
 
 ---
 
@@ -78,17 +83,17 @@ O arquivo `tb_mux4.sv` realiza a **simulação completa** do circuito, cobrindo 
 
 ## 👥 Integrantes
 
-| Nome                      | E-mail                  |
-|---------------------------|-------------------------|
-| Caio Agrelli              | caarr@cin.ufpe.br       |
-| Lucas David Lima Ferreira | ldlf@cin.ufpe.br        |
+| Nome                      | E-mail              |
+|---------------------------|---------------------|
+| Caio Agrelli              | caarr@cin.ufpe.br   |
+| Lucas David Lima Ferreira | ldlf@cin.ufpe.br    |
 
 ---
 
 ## 🏫 Contexto Acadêmico
 
-| Campo        | Informação                                    |
-|--------------|-----------------------------------------------|
-| Disciplina   | Laboratório de Organização de Computadores    |
-| Instituição  | Centro de Informática – UFPE (CIn)            |
-| Ano          | 2026                                          |
+| Campo       | Informação                                 |
+|-------------|--------------------------------------------|
+| Disciplina  | Laboratório de Organização de Computadores |
+| Instituição | Centro de Informática – UFPE (CIn)         |
+| Ano         | 2026                                       |
