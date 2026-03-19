@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/status-acadêmico-lightgrey?style=for-the-badge)
 ![Linguagem](https://img.shields.io/badge/linguagem-SystemVerilog-orange?style=for-the-badge)
 
-**Projeto acadêmico desenvolvido para a disciplina de Laboratório de Organização de Computadores — CIn/UFPE (2026)**
+**Projeto acadêmico desenvolvido para a disciplina de Laboratório de Organização e Arquitetura de Computadores (CIN0012) — CIn/UFPE (2026)**
 
 </div>
 
@@ -86,14 +86,15 @@ O arquivo [`tb_mux4.sv`](project1/tb_mux4.sv) realiza a **simulação completa**
 | Nome                      | E-mail              |
 |---------------------------|---------------------|
 | Caio Agrelli              | caarr@cin.ufpe.br   |
-| Lucas David Lima Ferreira | ldlf@cin.ufpe.br    |
+| Lucas David               | ldlf@cin.ufpe.br    |
 
 ---
 
 ## 🏫 Contexto Acadêmico
 
-| Campo       | Informação                                 |
-|-------------|--------------------------------------------|
-| Disciplina  | Laboratório de Organização de Computadores |
-| Instituição | Centro de Informática – UFPE (CIn)         |
-| Ano         | 2026                                       |
+| Campo       | Informação                                               |
+|-------------|----------------------------------------------------------|
+| Disciplina  | Laboratório de Organização e Arquitetura de Computadores |
+| Instituição | Centro de Informática – UFPE (CIn)                       |
+| Professores | Edna Barros e Victor Medeiros                            |
+| Ano         | 2026                                                     |
