@@ -3,7 +3,7 @@
 <div align="center">
 
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-HDL-blue?style=for-the-badge)
-![UFPE](https://img.shields.io/badge/UFPE-CIn-green?style=for-the-badge)
+![UFPE](https://img.shields.io/badge/UFPE-CIn-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-acadêmico-lightgrey?style=for-the-badge)
 ![Linguagem](https://img.shields.io/badge/linguagem-SystemVerilog-orange?style=for-the-badge)
 
